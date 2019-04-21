@@ -452,5 +452,15 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3651131964193745043, guid: d585b571a2ded63429ccfc48ddbd4d61,
+        type: 3}
+      propertyPath: offset.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3651131964193745043, guid: d585b571a2ded63429ccfc48ddbd4d61,
+        type: 3}
+      propertyPath: offset.y
+      value: -3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d585b571a2ded63429ccfc48ddbd4d61, type: 3}

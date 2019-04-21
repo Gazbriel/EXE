@@ -20,7 +20,7 @@ public class DraggableObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        mouseObjectOffset = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position;
+        mouseObjectOffset = (Vector2)transform.position - (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
     private void OnMouseDrag()

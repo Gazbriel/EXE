@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CursorBehavior : MonoBehaviour
 {
+
+    public Vector2 offset = new Vector2();
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,6 @@ public class CursorBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
     }
 }
