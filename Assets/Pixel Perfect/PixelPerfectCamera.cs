@@ -67,15 +67,16 @@ public class PixelPerfectCamera : MonoBehaviour
     }
 
     #region Pixel Perfect
-    void OnRenderImage(RenderTexture source, RenderTexture destination)
-    {
-        source.filterMode = FilterMode.Point;
-        RenderTexture buffer = RenderTexture.GetTemporary(w, h, -1);
-        buffer.filterMode = FilterMode.Point;
-        Graphics.Blit(source, buffer);
-        Graphics.Blit(buffer, destination);
-        RenderTexture.ReleaseTemporary(buffer);
-    }
+    //Descoment the nex text to make it pixel perfect by buffer render
+    //void OnRenderImage(RenderTexture source, RenderTexture destination)
+    //{
+    //    source.filterMode = FilterMode.Point;
+    //    RenderTexture buffer = RenderTexture.GetTemporary(w, h, -1);
+    //    buffer.filterMode = FilterMode.Point;
+    //    Graphics.Blit(source, buffer);
+    //    Graphics.Blit(buffer, destination);
+    //    RenderTexture.ReleaseTemporary(buffer);
+    //}
     #endregion
 
     #region Set Screen Size

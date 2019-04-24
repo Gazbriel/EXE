@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 42eb6da5eeef07c4688b2786b5acf493
+guid: c7f90a4ffec55ca4a82b82ca0b32d536
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,12 +8,12 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Minecraftia
+  fontName: Thin Pixe-l7
   fontNames:
-  - Minecraftia
+  - Thin Pixe-l7
   fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 2
+  customCharacters: l
+  fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
