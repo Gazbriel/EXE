@@ -237,6 +237,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3651131964193745043, guid: d585b571a2ded63429ccfc48ddbd4d61,
+        type: 3}
+      propertyPath: offset.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3651131964193745043, guid: d585b571a2ded63429ccfc48ddbd4d61,
+        type: 3}
+      propertyPath: offset.y
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d585b571a2ded63429ccfc48ddbd4d61, type: 3}
 --- !u!1 &419508079
@@ -775,12 +785,12 @@ PrefabInstance:
     - target: {fileID: 1667010724038587381, guid: cad0189f2b52dd548a4271d9cf7834f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 240
       objectReference: {fileID: 0}
     - target: {fileID: 1667010724038587381, guid: cad0189f2b52dd548a4271d9cf7834f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -60
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 1667010724038587381, guid: cad0189f2b52dd548a4271d9cf7834f3,
         type: 3}
@@ -1189,7 +1199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1860018092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,12 +1335,12 @@ PrefabInstance:
     - target: {fileID: 9200044647376479037, guid: 9f8e835849c4e994c8a7fb4d9ff8ae27,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 9200044647376479037, guid: 9f8e835849c4e994c8a7fb4d9ff8ae27,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 109.5
+      value: -21.5
       objectReference: {fileID: 0}
     - target: {fileID: 9200044647376479037, guid: 9f8e835849c4e994c8a7fb4d9ff8ae27,
         type: 3}
@@ -1376,6 +1386,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200044647376479035, guid: 9f8e835849c4e994c8a7fb4d9ff8ae27,
+        type: 3}
+      propertyPath: m_Text
+      value: "Decidido a \ndetener al \ngeneral \n\xC1lvaro Obreg\xF3n, \nel general
+        \nRafael Buelna \nsali\xF3 de la \nciudad de Tepic \nllevando \ncerca de \ndoscientos
+        \nhombres. \xD1\xF3."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f8e835849c4e994c8a7fb4d9ff8ae27, type: 3}
